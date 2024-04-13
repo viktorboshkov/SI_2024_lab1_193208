@@ -1,0 +1,64 @@
+Used commands by 193208
+Used commands by 193208
+Used commands by 193208
+mkdir SI_2024_lab1_193208
+cd SI_2024_lab1_193208
+git init
+git remote add origin https://github.com/viktorboshkov/SI_2024_lab1_193208.git
+git branch -M master
+echo VIKTOR BOSHKOV 193208 > README.md
+echo Used commands by 193208 > 193208.txt
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+git add.
+git commit -m "Add starter code."
+git push --all origin
+git branch bug1
+git branch bug2
+git checkout bug1
+git add.
+git commit -m "Call method filterOddLengthStrings in main class."
+git checkout bug2
+git add .
+git commit -m "Call method makeBigStringFrom in main class."
+git push --all origin
+git checkout master
+20.
+git merge bug1 Овде немаше никаков конфликт при MERGE
+
+git push --all origin
+git add .
+git checkout bug2
+23.
+ git rebase master (CONFLICT) го поправив manually во едитор intelij / saved all - така што одлучив да ги зачувам и двете промени но на различни линии.
+
+git add .
+git rebase --continue По средниот конфликт (ESC :WQ) 
+по зачувувањето и rebase направив merge
+git checkout master
+git pull origin master
+25.
+
+git merge bug2 Овде имам Fast-fardward merge 
+git merge bug2
+
+Updating b076750..6979821
+Fast-forward
+ SILab1Main.java | 4 ++++
+ SILab1_2.java   | 2 +-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+правам pull пред push за сигурност
+git pull origin master
+From https://github.com/viktorboshkov/SI_2024_lab1_193208
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+git push origin master
+
+git log > logs.txt
+git add logs.txt
+echo Used commands by 193208 > 193208.txt
+git add .
+git commit -m "Final commit"
